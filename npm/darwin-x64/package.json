@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "@anush008/fasterembed.darwin-x64.node",
+  "main": "fasterembed.darwin-x64.node",
   "files": [
-    "@anush008/fasterembed.darwin-x64.node"
+    "fasterembed.darwin-x64.node"
   ],
   "description": "test",
   "license": "MIT",

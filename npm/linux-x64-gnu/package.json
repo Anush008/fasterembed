@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "@anush008/fasterembed.linux-x64-gnu.node",
+  "main": "fasterembed.linux-x64-gnu.node",
   "files": [
-    "@anush008/fasterembed.linux-x64-gnu.node"
+    "fasterembed.linux-x64-gnu.node"
   ],
   "description": "test",
   "license": "MIT",
