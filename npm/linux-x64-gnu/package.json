@@ -1,0 +1,23 @@
+{
+  "name": "@anush008/fasterembed-linux-x64-gnu",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "fasterembed.linux-x64-gnu.node",
+  "files": [
+    "fasterembed.linux-x64-gnu.node"
+  ],
+  "description": "Test Node bindings",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/anush008/fasterembed",
+  "libc": [
+    "glibc"
+  ]
+}
