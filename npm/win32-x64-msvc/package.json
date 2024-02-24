@@ -1,5 +1,5 @@
 {
-  "name": "@anush008/fasterembed-win32-x64-msvc",
+  "name": "fasterembed-win32-x64-msvc",
   "version": "0.0.1",
   "os": [
     "win32"
@@ -7,14 +7,17 @@
   "cpu": [
     "x64"
   ],
-  "main": "fasterembed.win32-x64-msvc.node",
+  "main": "@anush008/fasterembed.win32-x64-msvc.node",
   "files": [
-    "fasterembed.win32-x64-msvc.node"
+    "@anush008/fasterembed.win32-x64-msvc.node"
   ],
   "description": "Test Node bindings",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/anush008/fasterembed"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anush008/fasterembed.git"
+  }
 }

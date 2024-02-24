@@ -1,5 +1,5 @@
 {
-  "name": "@anush008/fasterembed-linux-arm64-gnu",
+  "name": "fasterembed-linux-arm64-gnu",
   "version": "0.0.1",
   "os": [
     "linux"
@@ -7,16 +7,19 @@
   "cpu": [
     "arm64"
   ],
-  "main": "fasterembed.linux-arm64-gnu.node",
+  "main": "@anush008/fasterembed.linux-arm64-gnu.node",
   "files": [
-    "fasterembed.linux-arm64-gnu.node"
+    "@anush008/fasterembed.linux-arm64-gnu.node"
   ],
   "description": "Test Node bindings",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/anush008/fasterembed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anush008/fasterembed.git"
+  },
   "libc": [
     "glibc"
   ]

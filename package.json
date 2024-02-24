@@ -1,10 +1,9 @@
 {
-  "name": "@anush008/fasterembed",
   "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "fasterembed",
+    "name": "@anush008/fasterembed",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -34,6 +33,10 @@
     "version": "napi version"
   },
   "packageManager": "yarn@4.1.0",
-  "repository": "https://github.com/anush008/fasterembed",
-  "description": "Test Node bindings"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anush008/fasterembed.git"
+  },
+  "description": "Test Node bindings",
+  "name": "fasterembed"
 }

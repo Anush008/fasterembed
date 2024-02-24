@@ -1,5 +1,5 @@
 {
-  "name": "@anush008/fasterembed-darwin-x64",
+  "name": "fasterembed-darwin-x64",
   "version": "0.0.1",
   "os": [
     "darwin"
@@ -7,14 +7,17 @@
   "cpu": [
     "x64"
   ],
-  "main": "fasterembed.darwin-x64.node",
+  "main": "@anush008/fasterembed.darwin-x64.node",
   "files": [
-    "fasterembed.darwin-x64.node"
+    "@anush008/fasterembed.darwin-x64.node"
   ],
   "description": "Test Node bindings",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/anush008/fasterembed"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anush008/fasterembed.git"
+  }
 }
