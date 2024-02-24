@@ -1,5 +1,5 @@
 {
-  "name": "@anush008/fasterembed-darwin-x64",
+  "name": "fasterembed-darwin-x64",
   "version": "0.3.0",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "fasterembed.darwin-x64.node",
+  "main": ".darwin-x64.node",
   "files": [
-    "fasterembed.darwin-x64.node"
+    ".darwin-x64.node"
   ],
   "description": "test",
   "license": "MIT",

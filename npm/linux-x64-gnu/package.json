@@ -1,5 +1,5 @@
 {
-  "name": "@anush008/fasterembed-linux-x64-gnu",
+  "name": "fasterembed-linux-x64-gnu",
   "version": "0.3.0",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "fasterembed.linux-x64-gnu.node",
+  "main": ".linux-x64-gnu.node",
   "files": [
-    "fasterembed.linux-x64-gnu.node"
+    ".linux-x64-gnu.node"
   ],
   "description": "test",
   "license": "MIT",

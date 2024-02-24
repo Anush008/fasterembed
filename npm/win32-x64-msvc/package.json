@@ -1,5 +1,5 @@
 {
-  "name": "@anush008/fasterembed-win32-x64-msvc",
+  "name": "fasterembed-win32-x64-msvc",
   "version": "0.3.0",
   "os": [
     "win32"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "fasterembed.win32-x64-msvc.node",
+  "main": ".win32-x64-msvc.node",
   "files": [
-    "fasterembed.win32-x64-msvc.node"
+    ".win32-x64-msvc.node"
   ],
   "description": "test",
   "license": "MIT",
