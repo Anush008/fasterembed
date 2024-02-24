@@ -7,14 +7,16 @@
   "cpu": [
     "x64"
   ],
-  "main": "fasterembed.linux-x64-gnu.node",
+  "main": "@anush008/fasterembed.linux-x64-gnu.node",
   "files": [
-    "fasterembed.linux-x64-gnu.node"
+    "@anush008/fasterembed.linux-x64-gnu.node"
   ],
+  "description": "test",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
+  "repository": "https://github.com/anush008/fasterembed",
   "libc": [
     "glibc"
   ]

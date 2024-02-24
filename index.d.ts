@@ -5,17 +5,11 @@
 
 export function sum(a: number, b: number): number
 export const enum EmbeddingModel {
-  /** Sentence Transformer model, MiniLM-L6-v2 */
   AllMiniLML6V2 = 0,
-  /** v1.5 release of the base English model */
   BGEBaseENV15 = 1,
-  /** v1.5 release of the large English model */
   BGELargeENV15 = 2,
-  /** Fast and Default English model */
   BGESmallENV15 = 3,
-  /** 8192 context length english model */
   NomicEmbedTextV1 = 4,
-  /** Multi-lingual model */
   ParaphraseMLMiniLML12V2 = 5
 }
 export type JsTextEmbedding = TextEmbedding
