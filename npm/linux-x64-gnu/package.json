@@ -1,5 +1,5 @@
 {
-  "name": "fasterembed-linux-x64-gnu",
+  "name": "@anush008/fasterembed-linux-x64-gnu",
   "version": "0.0.2",
   "os": [
     "linux"

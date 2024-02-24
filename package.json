@@ -38,5 +38,5 @@
     "url": "git+https://github.com/anush008/fasterembed.git"
   },
   "description": "Test Node bindings",
-  "name": "fasterembed"
+  "name": "@anush008/fasterembed"
 }

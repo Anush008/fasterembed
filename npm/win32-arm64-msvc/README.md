@@ -1,3 +1,3 @@
-# `fasterembed-win32-arm64-msvc`
+# `@anush008/fasterembed-win32-arm64-msvc`
 
-This is the **aarch64-pc-windows-msvc** binary for `fasterembed`
+This is the **aarch64-pc-windows-msvc** binary for `@anush008/fasterembed`
