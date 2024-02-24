@@ -1,3 +1,3 @@
-# `fasterembed-win32-x64-msvc`
+# `@anush008/fasterembed-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `fasterembed`
+This is the **x86_64-pc-windows-msvc** binary for `@anush008/fasterembed`

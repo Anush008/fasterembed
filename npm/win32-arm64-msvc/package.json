@@ -1,5 +1,5 @@
 {
-  "name": "fasterembed-win32-arm64-msvc",
+  "name": "@anush008/fasterembed-win32-arm64-msvc",
   "version": "0.2.0",
   "os": [
     "win32"
