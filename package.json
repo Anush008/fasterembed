@@ -3,7 +3,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "@anush008/fasterembed",
+    "name": "fasterembed",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",

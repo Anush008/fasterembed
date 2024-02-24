@@ -32,10 +32,10 @@ switch (platform) {
   case 'android':
     switch (arch) {
       case 'arm64':
-        localFileExisted = existsSync(join(__dirname, '@anush008/fasterembed.android-arm64.node'))
+        localFileExisted = existsSync(join(__dirname, 'fasterembed.android-arm64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.android-arm64.node')
+            nativeBinding = require('./fasterembed.android-arm64.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-android-arm64')
           }
@@ -44,10 +44,10 @@ switch (platform) {
         }
         break
       case 'arm':
-        localFileExisted = existsSync(join(__dirname, '@anush008/fasterembed.android-arm-eabi.node'))
+        localFileExisted = existsSync(join(__dirname, 'fasterembed.android-arm-eabi.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.android-arm-eabi.node')
+            nativeBinding = require('./fasterembed.android-arm-eabi.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-android-arm-eabi')
           }
@@ -63,11 +63,11 @@ switch (platform) {
     switch (arch) {
       case 'x64':
         localFileExisted = existsSync(
-          join(__dirname, '@anush008/fasterembed.win32-x64-msvc.node')
+          join(__dirname, 'fasterembed.win32-x64-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.win32-x64-msvc.node')
+            nativeBinding = require('./fasterembed.win32-x64-msvc.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-win32-x64-msvc')
           }
@@ -77,11 +77,11 @@ switch (platform) {
         break
       case 'ia32':
         localFileExisted = existsSync(
-          join(__dirname, '@anush008/fasterembed.win32-ia32-msvc.node')
+          join(__dirname, 'fasterembed.win32-ia32-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.win32-ia32-msvc.node')
+            nativeBinding = require('./fasterembed.win32-ia32-msvc.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-win32-ia32-msvc')
           }
@@ -91,11 +91,11 @@ switch (platform) {
         break
       case 'arm64':
         localFileExisted = existsSync(
-          join(__dirname, '@anush008/fasterembed.win32-arm64-msvc.node')
+          join(__dirname, 'fasterembed.win32-arm64-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.win32-arm64-msvc.node')
+            nativeBinding = require('./fasterembed.win32-arm64-msvc.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-win32-arm64-msvc')
           }
@@ -108,10 +108,10 @@ switch (platform) {
     }
     break
   case 'darwin':
-    localFileExisted = existsSync(join(__dirname, '@anush008/fasterembed.darwin-universal.node'))
+    localFileExisted = existsSync(join(__dirname, 'fasterembed.darwin-universal.node'))
     try {
       if (localFileExisted) {
-        nativeBinding = require('./@anush008/fasterembed.darwin-universal.node')
+        nativeBinding = require('./fasterembed.darwin-universal.node')
       } else {
         nativeBinding = require('@anush008/fasterembed-darwin-universal')
       }
@@ -119,10 +119,10 @@ switch (platform) {
     } catch {}
     switch (arch) {
       case 'x64':
-        localFileExisted = existsSync(join(__dirname, '@anush008/fasterembed.darwin-x64.node'))
+        localFileExisted = existsSync(join(__dirname, 'fasterembed.darwin-x64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.darwin-x64.node')
+            nativeBinding = require('./fasterembed.darwin-x64.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-darwin-x64')
           }
@@ -132,11 +132,11 @@ switch (platform) {
         break
       case 'arm64':
         localFileExisted = existsSync(
-          join(__dirname, '@anush008/fasterembed.darwin-arm64.node')
+          join(__dirname, 'fasterembed.darwin-arm64.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.darwin-arm64.node')
+            nativeBinding = require('./fasterembed.darwin-arm64.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-darwin-arm64')
           }
@@ -152,10 +152,10 @@ switch (platform) {
     if (arch !== 'x64') {
       throw new Error(`Unsupported architecture on FreeBSD: ${arch}`)
     }
-    localFileExisted = existsSync(join(__dirname, '@anush008/fasterembed.freebsd-x64.node'))
+    localFileExisted = existsSync(join(__dirname, 'fasterembed.freebsd-x64.node'))
     try {
       if (localFileExisted) {
-        nativeBinding = require('./@anush008/fasterembed.freebsd-x64.node')
+        nativeBinding = require('./fasterembed.freebsd-x64.node')
       } else {
         nativeBinding = require('@anush008/fasterembed-freebsd-x64')
       }
@@ -168,11 +168,11 @@ switch (platform) {
       case 'x64':
         if (isMusl()) {
           localFileExisted = existsSync(
-            join(__dirname, '@anush008/fasterembed.linux-x64-musl.node')
+            join(__dirname, 'fasterembed.linux-x64-musl.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./@anush008/fasterembed.linux-x64-musl.node')
+              nativeBinding = require('./fasterembed.linux-x64-musl.node')
             } else {
               nativeBinding = require('@anush008/fasterembed-linux-x64-musl')
             }
@@ -181,11 +181,11 @@ switch (platform) {
           }
         } else {
           localFileExisted = existsSync(
-            join(__dirname, '@anush008/fasterembed.linux-x64-gnu.node')
+            join(__dirname, 'fasterembed.linux-x64-gnu.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./@anush008/fasterembed.linux-x64-gnu.node')
+              nativeBinding = require('./fasterembed.linux-x64-gnu.node')
             } else {
               nativeBinding = require('@anush008/fasterembed-linux-x64-gnu')
             }
@@ -197,11 +197,11 @@ switch (platform) {
       case 'arm64':
         if (isMusl()) {
           localFileExisted = existsSync(
-            join(__dirname, '@anush008/fasterembed.linux-arm64-musl.node')
+            join(__dirname, 'fasterembed.linux-arm64-musl.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./@anush008/fasterembed.linux-arm64-musl.node')
+              nativeBinding = require('./fasterembed.linux-arm64-musl.node')
             } else {
               nativeBinding = require('@anush008/fasterembed-linux-arm64-musl')
             }
@@ -210,11 +210,11 @@ switch (platform) {
           }
         } else {
           localFileExisted = existsSync(
-            join(__dirname, '@anush008/fasterembed.linux-arm64-gnu.node')
+            join(__dirname, 'fasterembed.linux-arm64-gnu.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./@anush008/fasterembed.linux-arm64-gnu.node')
+              nativeBinding = require('./fasterembed.linux-arm64-gnu.node')
             } else {
               nativeBinding = require('@anush008/fasterembed-linux-arm64-gnu')
             }
@@ -225,11 +225,11 @@ switch (platform) {
         break
       case 'arm':
         localFileExisted = existsSync(
-          join(__dirname, '@anush008/fasterembed.linux-arm-gnueabihf.node')
+          join(__dirname, 'fasterembed.linux-arm-gnueabihf.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.linux-arm-gnueabihf.node')
+            nativeBinding = require('./fasterembed.linux-arm-gnueabihf.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-linux-arm-gnueabihf')
           }
@@ -240,11 +240,11 @@ switch (platform) {
       case 'riscv64':
         if (isMusl()) {
           localFileExisted = existsSync(
-            join(__dirname, '@anush008/fasterembed.linux-riscv64-musl.node')
+            join(__dirname, 'fasterembed.linux-riscv64-musl.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./@anush008/fasterembed.linux-riscv64-musl.node')
+              nativeBinding = require('./fasterembed.linux-riscv64-musl.node')
             } else {
               nativeBinding = require('@anush008/fasterembed-linux-riscv64-musl')
             }
@@ -253,11 +253,11 @@ switch (platform) {
           }
         } else {
           localFileExisted = existsSync(
-            join(__dirname, '@anush008/fasterembed.linux-riscv64-gnu.node')
+            join(__dirname, 'fasterembed.linux-riscv64-gnu.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./@anush008/fasterembed.linux-riscv64-gnu.node')
+              nativeBinding = require('./fasterembed.linux-riscv64-gnu.node')
             } else {
               nativeBinding = require('@anush008/fasterembed-linux-riscv64-gnu')
             }
@@ -268,11 +268,11 @@ switch (platform) {
         break
       case 's390x':
         localFileExisted = existsSync(
-          join(__dirname, '@anush008/fasterembed.linux-s390x-gnu.node')
+          join(__dirname, 'fasterembed.linux-s390x-gnu.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./@anush008/fasterembed.linux-s390x-gnu.node')
+            nativeBinding = require('./fasterembed.linux-s390x-gnu.node')
           } else {
             nativeBinding = require('@anush008/fasterembed-linux-s390x-gnu')
           }

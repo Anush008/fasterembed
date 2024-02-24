@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "@anush008/fasterembed.darwin-arm64.node",
+  "main": "fasterembed.darwin-arm64.node",
   "files": [
-    "@anush008/fasterembed.darwin-arm64.node"
+    "fasterembed.darwin-arm64.node"
   ],
   "description": "Test Node bindings",
   "license": "MIT",

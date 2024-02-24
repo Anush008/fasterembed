@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "@anush008/fasterembed.win32-x64-msvc.node",
+  "main": "fasterembed.win32-x64-msvc.node",
   "files": [
-    "@anush008/fasterembed.win32-x64-msvc.node"
+    "fasterembed.win32-x64-msvc.node"
   ],
   "description": "Test Node bindings",
   "license": "MIT",
