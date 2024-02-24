@@ -37,7 +37,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.android-arm64.node')
           } else {
-            nativeBinding = require('fasterembed-android-arm64')
+            nativeBinding = require('@anush008/fasterembed-android-arm64')
           }
         } catch (e) {
           loadError = e
@@ -49,7 +49,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.android-arm-eabi.node')
           } else {
-            nativeBinding = require('fasterembed-android-arm-eabi')
+            nativeBinding = require('@anush008/fasterembed-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -69,7 +69,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('fasterembed-win32-x64-msvc')
+            nativeBinding = require('@anush008/fasterembed-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -83,7 +83,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('fasterembed-win32-ia32-msvc')
+            nativeBinding = require('@anush008/fasterembed-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -97,7 +97,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('fasterembed-win32-arm64-msvc')
+            nativeBinding = require('@anush008/fasterembed-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -113,7 +113,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./@anush008/fasterembed.darwin-universal.node')
       } else {
-        nativeBinding = require('fasterembed-darwin-universal')
+        nativeBinding = require('@anush008/fasterembed-darwin-universal')
       }
       break
     } catch {}
@@ -124,7 +124,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.darwin-x64.node')
           } else {
-            nativeBinding = require('fasterembed-darwin-x64')
+            nativeBinding = require('@anush008/fasterembed-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -138,7 +138,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.darwin-arm64.node')
           } else {
-            nativeBinding = require('fasterembed-darwin-arm64')
+            nativeBinding = require('@anush008/fasterembed-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -157,7 +157,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./@anush008/fasterembed.freebsd-x64.node')
       } else {
-        nativeBinding = require('fasterembed-freebsd-x64')
+        nativeBinding = require('@anush008/fasterembed-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -174,7 +174,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./@anush008/fasterembed.linux-x64-musl.node')
             } else {
-              nativeBinding = require('fasterembed-linux-x64-musl')
+              nativeBinding = require('@anush008/fasterembed-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
@@ -187,7 +187,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./@anush008/fasterembed.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('fasterembed-linux-x64-gnu')
+              nativeBinding = require('@anush008/fasterembed-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -203,7 +203,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./@anush008/fasterembed.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('fasterembed-linux-arm64-musl')
+              nativeBinding = require('@anush008/fasterembed-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
@@ -216,7 +216,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./@anush008/fasterembed.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('fasterembed-linux-arm64-gnu')
+              nativeBinding = require('@anush008/fasterembed-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -231,7 +231,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('fasterembed-linux-arm-gnueabihf')
+            nativeBinding = require('@anush008/fasterembed-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e
@@ -246,7 +246,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./@anush008/fasterembed.linux-riscv64-musl.node')
             } else {
-              nativeBinding = require('fasterembed-linux-riscv64-musl')
+              nativeBinding = require('@anush008/fasterembed-linux-riscv64-musl')
             }
           } catch (e) {
             loadError = e
@@ -259,7 +259,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./@anush008/fasterembed.linux-riscv64-gnu.node')
             } else {
-              nativeBinding = require('fasterembed-linux-riscv64-gnu')
+              nativeBinding = require('@anush008/fasterembed-linux-riscv64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -274,7 +274,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./@anush008/fasterembed.linux-s390x-gnu.node')
           } else {
-            nativeBinding = require('fasterembed-linux-s390x-gnu')
+            nativeBinding = require('@anush008/fasterembed-linux-s390x-gnu')
           }
         } catch (e) {
           loadError = e
